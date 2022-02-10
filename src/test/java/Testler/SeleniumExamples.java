@@ -57,7 +57,7 @@ public class SeleniumExamples {
         driver.quit(); //quit ile sayfa kapanır
     }
     @Test
-    public void SayfanınTitleiniGetirme() {
+    public void SayfaninTitleiniGetirme() {
 
         driver = new ChromeDriver();//Chrome kullanacağımız için ChromeDriver() 'i kullanıyoruz ve driver'ı tanımlıyoruz
         driver.get("https://www.google.com/");
